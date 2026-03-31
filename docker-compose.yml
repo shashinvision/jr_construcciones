@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    container_name: jehova-construcciones
+    container_name: jr-construcciones
     build: .
     ports:
       - "8006:80"
