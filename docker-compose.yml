@@ -5,5 +5,5 @@ services:
     container_name: jehova-construcciones
     build: .
     ports:
-      - "8003:80"
+      - "8006:80"
     restart: unless-stopped
