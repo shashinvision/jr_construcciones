@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JR Construcciones | Construcción, Aseo y Seguridad</title>
+        <meta
+            name="description"
+            content="JR Construcciones - Empresa líder en construcción, ingeniería, aseo y seguridad. Más de 25 años de experiencia. Calidad profesional en cada proyecto."
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/pico_css/pico.min.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/style.css') }}"
+        />
+    </head>
+    <body>
+        <header class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="nav-logo"
+                            >JR CONSTRUCCIONES<br />
+                            <small style="font-size: 0.7em; color: #00247f"
+                                >INGENIERÍA ASEO Y SEGURIDAD</small
+                            ></a
+                        >
+                    </li>
+                </ul>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li>
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="inicio" class="hero">
+                <article>
+                    <h1>JR Construcciones</h1>
+                    <p>Ingeniería, Aseo y Seguridad</p>
+                    <p>
+                        Más de 25 años de experiencia en el rubro de la
+                        construcción
+                    </p>
+                    <a href="#contacto">Cotiza tu Proyecto</a>
+                </article>
+            </section>
+
+            <section id="servicios" class="services container">
+                <h2 style="text-align: center; margin-bottom: 3rem">
+                    Nuestros Servicios
+                </h2>
+                <div class="grid" style="margin-bottom: 1rem">
+                    <article class="service-card">
+                        <div class="service-icon">🧱</div>
+                        <h3>Albañilería</h3>
+                        <p>
+                            Estuco, enchape, postura de ladrillo fiscal,
+                            ladrillo princesa y colocación de bloque.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🏗️</div>
+                        <h3>Lozas y Radieres</h3>
+                        <p>
+                            Extendido de hormigón platachado con máquina
+                            alisadora mecánica, corte de dilatación, sello de
+                            junta y hormigón matapolvo.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">⚙️</div>
+                        <h3>Enfierradura</h3>
+                        <p>
+                            Simple y enfierradura mecánica por kilo. Estructuras
+                            de refuerzo de primera calidad.
+                        </p>
+                    </article>
+                </div>
+                <div class="grid" style="margin-bottom: 1rem">
+                    <article class="service-card">
+                        <div class="service-icon">🪚</div>
+                        <h3>Carpintería</h3>
+                        <p>
+                            Obra gruesa y terminaciones vulcometal, cielo
+                            vulcometal, tabiques, preparación de cámaras de
+                            frío, paneles sip, techumbres, aleros, moldaje
+                            metálico y piso flotante.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🧱</div>
+                        <h3>Revestimientos</h3>
+                        <p>
+                            Postura de cerámica, colocación de piedra pizarra,
+                            porcelanato, listeles, siding, pizarreño y PVC.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🏭</div>
+                        <h3>Estructuras Metálicas</h3>
+                        <p>
+                            Galpones y escaleras metálicas por kilo. Proyectos
+                            industriales de gran envergadura.
+                        </p>
+                    </article>
+                </div>
+                <div class="grid">
+                    <article class="service-card">
+                        <div class="service-icon">📏</div>
+                        <h3>Nivelación de Pisos</h3>
+                        <p>
+                            Descarpe, trazado, tratamiento de terreno y
+                            compactación.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🛣️</div>
+                        <h3>Colocación de Soleras</h3>
+                        <p>
+                            Soleras, soterillas, pastelones, adocésped, adocreto
+                            y baldosa.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Pinturas</h3>
+                        <p>
+                            Empaste, yeso, esmalte al agua, grano, sipalina con
+                            máquina, latex y pintura intumescente.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="container">
+                    <h2 style="text-align: center; margin-bottom: 3rem">
+                        ¿Por Qué Elegirnos?
+                    </h2>
+                    <div class="grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <h3>Profesionalismo</h3>
+                            <p>
+                                Equipo capacitado y experimentado en todos los
+                                aspectos de la construcción
+                            </p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">⏱</div>
+                            <h3>Puntualidad</h3>
+                            <p>
+                                Cumplimiento de plazos acordados en cada
+                                proyecto
+                            </p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">💰</div>
+                            <h3>Precios Justos</h3>
+                            <p>
+                                Presupuestos transparentes y competitivos sin
+                                costos ocultos
+                            </p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🏆</div>
+                            <h3>Calidad Garantizada</h3>
+                            <p>
+                                Materiales de primera y acabados de excelencia
+                                en cada obra
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="proyectos" class="projects container">
+                <h2 style="text-align: center; margin-bottom: 3rem">
+                    Proyectos Realizados
+                </h2>
+                <div class="grid">
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80"
+                            alt="Ripley Mall Parque Arauco"
+                        />
+                        <div class="project-content">
+                            <h3>Ripley Mall Parque Arauco</h3>
+                            <p>Sobreloza y tratamiento de piso - 1.900 m²</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+                            alt="Ripley Mall Plaza Oeste"
+                        />
+                        <div class="project-content">
+                            <h3>Ripley Mall Plaza Oeste</h3>
+                            <p>Albañilería y estuco - 5.000 m²</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&q=80"
+                            alt="Palacio de Tribunales"
+                        />
+                        <div class="project-content">
+                            <h3>Plaza Palacio de Tribunales</h3>
+                            <p>Nivelación y preparación - 9.000 m²</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="grid">
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
+                            alt="Estructuras Metálicas"
+                        />
+                        <div class="project-content">
+                            <h3>Paimasa S.A - Isla de Maipo</h3>
+                            <p>Estructuras metálicas - 70.000 kilos</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1530224264768-7ff8c1789d79?w=800&q=80"
+                            alt="Invernadero Punta Arenas"
+                        />
+                        <div class="project-content">
+                            <h3>Invernadero - Punta Arenas</h3>
+                            <p>Estructuras metálicas y techumbre</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+                            alt="Sala STEAM"
+                        />
+                        <div class="project-content">
+                            <h3>Sala STEAM - Coquimbo</h3>
+                            <p>Remodelación integral</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="nosotros" class="about">
+                <div class="container">
+                    <div class="grid">
+                        <div>
+                            <h2>Sobre JR Construcciones</h2>
+                            <p>
+                                <strong
+                                    >JR CONSTRUCCIONES INGENIERÍA ASEO Y
+                                    SEGURIDAD</strong
+                                >
+                                es una empresa competitiva en el rubro de la
+                                construcción y seguridad con más de 25 años de
+                                trayectoria.
+                            </p>
+                            <p>
+                                Estamos estructurados de manera ágil y expedita
+                                para responder a los requerimientos de cada
+                                obra. Nos especializamos en ofrecer soluciones
+                                integrales adaptadas a las necesidades de cada
+                                cliente.
+                            </p>
+                            <p>
+                                Somos una empresa dedicada a la construcción con
+                                experiencia en proyectos de gran envergadura,
+                                delivering quality en cada trabajo realizado.
+                            </p>
+                        </div>
+                        <div>
+                            <img
+                                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+                                alt="Equipo de construcción"
+                                style="border-radius: 8px; width: 100%"
+                            />
+                        </div>
+                    </div>
+                    <div style="text-align: center">
+                        <h3>Misión</h3>
+                        <p>
+                            Brindar servicios de construcción de calidad
+                            superior, construyendo relaciones duraderas basadas
+                            en la confianza y la satisfacción del cliente.
+                        </p>
+                        <h3>Visión</h3>
+                        <p>
+                            Ser la empresa de construcciones más recomendada en
+                            la región, reconocida por nuestra integridad,
+                            calidad y profesionalismo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacto" class="contact container">
+                <h2 style="text-align: center; margin-bottom: 3rem">
+                    Contáctanos
+                </h2>
+                <div class="grid">
+                    <div>
+                        <div class="contact-form">
+                            <h3>Solicita una Cotización</h3>
+                            <form>
+                                <div class="grid">
+                                    <input
+                                        type="text"
+                                        name="nombre"
+                                        placeholder="Nombre completo"
+                                        required
+                                    />
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        placeholder="Correo electrónico"
+                                        required
+                                    />
+                                </div>
+                                <input
+                                    type="tel"
+                                    name="telefono"
+                                    placeholder="Teléfono"
+                                />
+                                <select name="servicio" required>
+                                    <option value="" disabled selected>
+                                        Tipo de servicio
+                                    </option>
+                                    <option value="albañileria">
+                                        Albañilería
+                                    </option>
+                                    <option value="lozas">
+                                        Lozas y Radieres
+                                    </option>
+                                    <option value="enfierradura">
+                                        Enfierradura
+                                    </option>
+                                    <option value="carpinteria">
+                                        Carpintería
+                                    </option>
+                                    <option value="revestimientos">
+                                        Revestimientos
+                                    </option>
+                                    <option value="estructuras">
+                                        Estructuras Metálicas
+                                    </option>
+                                    <option value="nivelacion">
+                                        Nivelación de Pisos
+                                    </option>
+                                    <option value="soleras">
+                                        Colocación de Soleras
+                                    </option>
+                                    <option value="pinturas">Pinturas</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                                <textarea
+                                    name="mensaje"
+                                    placeholder="Describe tu proyecto..."
+                                    rows="5"
+                                    required
+                                ></textarea>
+                                <button
+                                    type="submit"
+                                    class="btn-primary"
+                                    style="
+                                        background-color: #00247f;
+                                        color: white;
+                                        border-color: #00247f;
+                                    "
+                                >
+                                    Enviar Mensaje
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Información de Contacto</h3>
+                        <article>
+                            <h4>📍 Dirección</h4>
+                            <p>La Temporada 112, Buin</p>
+                            <p>Región Metropolitana, Chile</p>
+                        </article>
+                        <article>
+                            <h4>📞 Teléfono</h4>
+                            <p>(+56) 9 6174 7881</p>
+                        </article>
+                        <article>
+                            <h4>✉️ Correo</h4>
+                            <p>retamalconstruccion@live.cl</p>
+                        </article>
+                        <article>
+                            <h4>🕐 Horario</h4>
+                            <p>
+                                Lunes a Viernes: 9:00 - 18:00<br />Sábado: 9:00
+                                - 14:00
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div style="text-align: center">
+                    <h3 class="text-color">JR Construcciones</h3>
+                    <p class="text-color">
+                        Ingeniería, Aseo y Seguridad - Más de 25 años de
+                        experiencia
+                    </p>
+                </div>
+
+                <hr />
+            </div>
+        </footer>
+        <script>
+            document
+                .querySelector(".nav-toggle")
+                .addEventListener("click", function () {
+                    document
+                        .querySelector(".nav-menu")
+                        .classList.toggle("active");
+                    this.classList.toggle("active");
+                });
+
+            document.querySelectorAll(".nav-menu a").forEach((link) => {
+                link.addEventListener("click", () => {
+                    document
+                        .querySelector(".nav-menu")
+                        .classList.remove("active");
+                    document
+                        .querySelector(".nav-toggle")
+                        .classList.remove("active");
+                });
+            });
+        </script>
+    </body>
+</html>
